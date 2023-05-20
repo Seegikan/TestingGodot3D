@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://camblk61afnv2"]
+
+[ext_resource type="ArrayMesh" uid="uid://cfo31m010qiax" path="res://Models/Props/blockDirtRampHalf.obj" id="1_bjr5d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q6812"]
+
+[node name="SlopeInstance" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_q6812")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = ExtResource("1_bjr5d")

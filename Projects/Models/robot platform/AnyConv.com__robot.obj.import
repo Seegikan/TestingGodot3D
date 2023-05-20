@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dnx3ahefutygp"
+path="res://.godot/imported/AnyConv.com__robot.obj-74bd39236e5e25dbfb08e99ebc8787c0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AnyConv.com__robot.obj-74bd39236e5e25dbfb08e99ebc8787c0.mesh"]
+
+source_file="res://Models/robot platform/AnyConv.com__robot.obj"
+dest_files=["res://.godot/imported/AnyConv.com__robot.obj-74bd39236e5e25dbfb08e99ebc8787c0.mesh", "res://.godot/imported/AnyConv.com__robot.obj-74bd39236e5e25dbfb08e99ebc8787c0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
